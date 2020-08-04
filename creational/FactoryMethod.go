@@ -9,7 +9,7 @@ type IAnimal interface {
 type Dog struct {
 }
 
-// implementing methods for Square
+// implementing methods for dog
 func (dog Dog) getSound() string {
 	return "Guau"
 }
@@ -17,7 +17,7 @@ func (dog Dog) getSound() string {
 type Cat struct {
 }
 
-// implementing method for Circle
+// implementing method for cat
 func (cat Cat) getSound() string {
 	return "Miau"
 }
