@@ -37,8 +37,8 @@ func (spanish Spanish) printBook(topicBook string) IBook {
 		return dramaBook
 	case "fantasy":
 		fmt.Println("Creating a Fantasy Book...")
-		dramaBook := FantasyBook{"Book of fantasy in spanish"}
-		return dramaBook
+		fantasyBook := FantasyBook{"Book of fantasy in spanish"}
+		return fantasyBook
 	default:
 		fmt.Println("Creating a Fantasy Book...")
 		dramaBook := DramaBook{"Book of drama in spanish"}
@@ -57,8 +57,8 @@ func (portuguese Portuguese) printBook(topicBook string) IBook {
 		return dramaBook
 	case "fantasy":
 		fmt.Println("Creating a Fantasy Book...")
-		dramaBook := FantasyBook{"Book of fantasy ao portuguese"}
-		return dramaBook
+		fantasyBook := FantasyBook{"Book of fantasy ao portuguese"}
+		return fantasyBook
 	default:
 		fmt.Println("Creating a Fantasy Book...")
 		dramaBook := DramaBook{"Book of drama ao portuguese"}
